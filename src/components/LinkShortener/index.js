@@ -8,7 +8,7 @@ const LinkShortener = () => {
 
     const [initialUrl, setUrl] = useState("")
     const dispatch = useDispatch()
-    console.log('$$$$$$$$$$',url, urls.length);
+    // console.log('$$$$$$$$$$',url, urls.length);
     let getShortenUrl = (e) => {
         e.preventDefault()
         if(urls.length){
